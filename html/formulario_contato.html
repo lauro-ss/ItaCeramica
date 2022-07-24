@@ -7,14 +7,74 @@
     <title>Ita Cerâmica | Formulário para contato</title>
 </head>
 <body>
-    <form method="get" action="mailto:bestlaurobr@gmail.com" enctype="text/plain" target="_blank">
-        <label for="body">Descreva sua dúvida!</label>
-        <div>
-            <input type="hidden" id="assunto" name="subject" value="Dúvida Ita Cerâmica">
-            <textarea name="body" id="body" cols="30" rows="10" size="10"></textarea>
-        </div>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Apagar">
-    </form>
+    <header>
+        <h1>Ita Cerâmica</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="#">Mais Vendidos</a></li>
+            <li><a href="#">Novos Produtos</a></li>
+            <li><a href="#">Promoções</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <h2>Formulário de contato Ita Cerâmica</h2>
+        <form method="get" action="mailto:bestlaurobr@gmail.com" enctype="text/plain" target="_blank">
+            <!-- Os inputs hidden estão sendo usados para pré-preencher o corpo do e-mail -->
+            <input type="hidden" name="body" value="Me chamo">
+            <label for="nome">Digite seu nome</label>
+            <div>
+                <input type="text" name="body" id="nome">
+            </div>
+            <div>
+                <input type="radio" id="soucliente" name="body" value="já sou cliente da Ita Cerâmica">
+                <label for="soucliente">Já sou cliente</label>
+            </div>
+            <label for="body">Descreva sua dúvida</label>
+            <div>
+                <input type="hidden" id="assunto" name="subject" value="Ita Cerâmica | Dúvida do Cliente">
+                <textarea name="body" id="body" cols="30" rows="10" size="10"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </form>
+    </section>
+    <footer>
+        <table>
+            <tr>
+                <!--Espaço em branco para enquadrar aa coluna-->
+                <th></th>
+                <th>Redes Sociais</th>
+                <!--Espaço em branco para enquadrar aa coluna-->
+                <th></th>
+                <!--Espaço em branco para enquadrar aa coluna-->
+                <th></th>
+                <!--Espaço em branco para enquadrar aa coluna-->
+                <th></th>
+                <th>Atendimento</th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#"><img src="../img/facebook.png" alt="logo do facebook" height="16" width="16"></a>
+                </th>
+                <th>
+                    <a href="#"><img src="../img/instagram.png" alt="logo do instagram" height="16" width="16"></a>
+                </th>
+                <th>
+                    <a href="#"><img src="../img/youtube.png" alt="logo do youtube" height="16" width="16"></a>
+                </th>
+                <!--conteudos em branco para dar espaçamento-->
+                <th>
+                </th>
+                <th>
+                </th>
+                <!--conteudos em branco para dar espaçamento-->
+                <th>
+                    <p>0800 777 7000</p>
+                </th>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
