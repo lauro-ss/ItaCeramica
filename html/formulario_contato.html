@@ -23,18 +23,37 @@
         <form method="get" action="mailto:bestlaurobr@gmail.com" enctype="text/plain" target="_blank">
             <!-- Os inputs hidden estão sendo usados para pré-preencher o corpo do e-mail -->
             <input type="hidden" name="body" value="Me chamo">
-            <label for="nome">Digite seu nome</label>
+            <label for="nome">Nome</label>
             <div>
-                <input type="text" name="body" id="nome" placeholder="Digite seu nome">
+                <input type="text" name="body" id="nome" placeholder="Digite seu nome" required>
             </div>
+            
+            <input type="hidden" name="body" value="meu telefone de contato">
+            <label for="telefone">Telefone (Opcional)</label>
             <div>
-                <input type="radio" id="soucliente" name="body" value="já sou cliente da Ita Cerâmica">
+                <input type="text" name="body" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            
+            <input type="hidden" name="body" value="meu e-mail de contato">
+            <label for="telefone">E-mail</label>
+            <div>
+                <input type="text" name="body" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="soucliente" name="body" value="já sou cliente da Ita Cerâmica">
                 <label for="soucliente">Já sou cliente</label>
             </div>
+            
             <label for="body">Descreva sua mensagem</label>
             <div>
                 <input type="hidden" id="assunto" name="subject" value="Ita Cerâmica | Dúvida do Cliente">
-                <textarea name="body" id="body" cols="30" rows="10" size="10" placeholder="Digite aqui sua mensagem"></textarea>
+                <textarea name="body" id="body" cols="30" rows="10" size="10" placeholder="Digite aqui sua mensagem" required></textarea>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="quero_novidades" name="body" value="já sou cliente da Ita Cerâmica">
+                <label for="quero_novidades">Quero receber novidades e promoções no meu e-mail</label>
             </div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Apagar">
