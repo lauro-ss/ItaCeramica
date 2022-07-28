@@ -6,18 +6,31 @@
         <title>Ita Cerâmica | Qualidade para seu ambiente</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- esse script só traz os icones que podem receber cores do css -->
+        <script src="https://kit.fontawesome.com/c1e5ef1fc4.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <h1>Ita Cerâmica</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Início</a></li>
-                <li><a href="#">Mais Vendidos</a></li>
-                <li><a href="#">Novos Produtos</a></li>
-                <li><a href="#">Promoções</a></li>
-            </ul>
-        </nav>
+            <img class="logo_header" src="./img/logo_ita_cerâmica.svg" alt="logo ita cerâmica" width="170">
+            <nav>
+                <ul class="links_header">
+                    <li><a class="link_header" href="./index.html"> <i class="fa-solid fa-house"></i> Início</a></li>
+                    <li><a class="link_header" href="#"> <i class="fa-solid fa-plus"></i> Novos Produtos</a></li>
+                    <li><a class="link_header" href="#"> <i class="fa-solid fa-percent"></i> Promoções</a></li>
+                </ul>
+            </nav>
+            <span class="caixa_pesquisa">
+                <input type="text" placeholder="Procurando por algo?">
+                <i class="lupa_pesquisa fa-solid fa-magnifying-glass"></i>
+            </span>
+            <span class="carrinho_header_number">
+                <i class="carrinho_header fa-solid fa-cart-shopping"></i>
+                <span class="carrinho_number" >0</span>
+            </span>
+            <button type="button" class="botao_entrar">
+                    Entrar
+            </button>
         </header>
 
         <section>
