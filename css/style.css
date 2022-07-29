@@ -23,7 +23,7 @@ a:link, a:visited {
   }
   
 a:hover, a:active {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
 li{
@@ -147,6 +147,7 @@ nav{
 }
 /* fim do nav */
 
+/* produtos no meio */
 main{
     color:#973309;
     margin: 35px;
@@ -178,4 +179,67 @@ section > div > a:hover, section > div > a:hover{
 }
 .estrela_desmarcada{
     color:#504f4f
+}
+/* fim produtos no meio */
+
+.feedback{
+    color:white;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+    background-color: #682408;
+}
+.feedback > h2{
+    margin: 0px 0px 10px 0px;
+}
+.feedback > button > a{
+    color: #682408;
+}
+
+.feedback > button {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback > button:hover{
+    background-color: #f7f1ee;
+}
+
+/* fim feedback */
+
+/* footer */
+.social{
+    width: 50%;
+    text-align: center;
+}
+
+.redes_social{
+    padding: 0;
+}
+
+.redes_social li{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.redes_social li > a{
+    color: #973309;
+}
+
+.atendimento{
+    text-align: center;
+    font-size: 17px;
+    width: 50%;
+}
+
+.mensagem_footer{
+    text-align: center;
+    color: #504f4f;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
 }
