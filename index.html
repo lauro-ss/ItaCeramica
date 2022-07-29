@@ -12,28 +12,31 @@
     </head>
     <body>
         <header>
-            <img class="logo_header" src="./img/logo_ita_cerâmica.svg" alt="logo ita cerâmica" width="170">
-            <nav>
-                <ul class="links_header">
-                    <li><a class="link_header" href="./index.html"> <i class="fa-solid fa-house"></i> Início</a></li>
-                    <li><a class="link_header" href="#"> <i class="fa-solid fa-plus"></i> Novos Produtos</a></li>
-                    <li><a class="link_header" href="#"> <i class="fa-solid fa-percent"></i> Promoções</a></li>
-                </ul>
-            </nav>
-            <span class="caixa_pesquisa">
-                <input type="text" placeholder="Procurando por algo?">
-                <i class="lupa_pesquisa fa-solid fa-magnifying-glass"></i>
-            </span>
-            <span class="carrinho_header_number">
-                <i class="carrinho_header fa-solid fa-cart-shopping"></i>
-                <span class="carrinho_number" >0</span>
-            </span>
-            <button type="button" class="botao_entrar">
-                    Entrar
-            </button>
+            <div class="logo_and_pesquisa">
+                <img class="logo_header" src="./img/logo_ita_cerâmica.svg" alt="logo ita cerâmica" width="170">
+                <span class="caixa_pesquisa">
+                    <input type="text" placeholder="Procurando por algo?">
+                    <i class="lupa_pesquisa fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <div class="carrinho_and_botao_entrar">
+                <span class="carrinho_header_number">
+                    <i class="carrinho_header fa-solid fa-cart-shopping"></i>
+                    <span class="carrinho_number" >0</span>
+                </span>
+                <button type="button" class="botao_entrar">
+                        Entrar <i class="icone_entrar fa-solid fa-right-to-bracket"></i>
+                </button>
+            </div>
         </header>
-
-        <section>
+        <nav class="nav_bottom_header">
+            <ul class="links_nav">
+                <li><a class="link_nav" href="./index.html"> <i class="fa-solid fa-house"></i> Início</a></li>
+                <li><a class="link_nav" href="#"> <i class="fa-solid fa-plus"></i> Novos Produtos</a></li>
+                <li><a class="link_nav" href="#"> <i class="fa-solid fa-percent"></i> Promoções</a></li>
+            </ul>
+        </nav>
+        <section class="main_page">
             <h2>Pisos</h2>
             <table>
                 <tr>

@@ -6,9 +6,9 @@ body {
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 a:link, a:visited {
@@ -29,26 +29,19 @@ li{
 .logo_header:hover{
     cursor: pointer;
 }
-.links_header{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 15px;
-    font-weight: bold;
-    cursor: default;
-}
 
 .botao_entrar{
     border: 2px solid #973309;
     color: white;
     background-color: #973309;
-    border-radius: 20px;
-    padding: 8px 22px;
+    border-radius: 10px;
+    padding: 8px 10px;
     font-size: 18px;
-}
-.botao_entrar:hover{
-    border: 2px solid #EDCBB1;
     cursor: pointer;
+}
+
+.icone_entrar{
+    font-size: 13px;
 }
 
 .carrinho_header{
@@ -61,6 +54,7 @@ li{
 .caixa_pesquisa{
     background-color: #973309;
     color: white;
+    margin-left: 20px;
 }
 
 .caixa_pesquisa input{
@@ -71,7 +65,7 @@ li{
     font-size: 15px;
     padding: 20px;
     height: 2px;
-    width: 460px;
+    width: 350px;
 }
 
 .lupa_pesquisa{
@@ -90,6 +84,7 @@ li{
 
 .carrinho_header_number{
     cursor: default;
+    margin-right: 20px;
 }
 
 .carrinho_number{
@@ -97,4 +92,41 @@ li{
     font-weight: bold;
     cursor: default;
 }
+
+.logo_and_pesquisa{
+    display: flex;
+}
+
+.carrinho_and_botao_entrar{
+    display: flex;
+}
 /* fim cabeçalho */
+
+/* nav abaixo do cabeçalho */
+.nav_bottom_header{
+    margin: 15px 10px 15px 10px;
+}
+
+.links_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    cursor: default;
+}
+
+.link_nav{
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid transparent;
+}
+
+.link_nav:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #973309;
+}
+/* fim do nav */
+
+.main_page{
+    /*border-top: 2px solid rgb(0,0,0,0.1); */
+    margin-top: 15px;
+}
