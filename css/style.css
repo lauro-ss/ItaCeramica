@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+    background: #f7f1ee;
 }
 
 header{
@@ -11,10 +12,14 @@ header{
     align-items: center;
     margin: 20px 20px 0px 20px;
 }
-
+h3, p {
+    margin: 0;
+}
+span {
+    cursor: default;
+}
 a:link, a:visited {
     text-decoration: none;
-    color:#973309;
   }
   
 a:hover, a:active {
@@ -23,7 +28,6 @@ a:hover, a:active {
 
 li{
     display: inline-block;
-    margin: 0 10px;
 }
 
 /* Cabeçalho */
@@ -85,7 +89,7 @@ li{
 }
 
 .caixa_pesquisa input:focus{
-    border: 2px solid #EDCBB1;
+    border: 2px solid #682408;
     outline: none;
 }
 
@@ -113,15 +117,13 @@ li{
 
 /* nav abaixo do cabeçalho */
 nav > ul > li > a{
-    color: white !important;
+    color: white;
 }
 
-.nav_bottom_header{
-    display: flex;
-    flex-wrap: wrap;
+nav{
     margin-top: 15px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     background-color: #973309;
 }
@@ -145,7 +147,35 @@ nav > ul > li > a{
 }
 /* fim do nav */
 
-.main_page{
-    /*border-top: 2px solid rgb(0,0,0,0.1); */
-    margin-top: 15px;
+main{
+    color:#973309;
+    margin: 35px;
+}
+
+main > h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #973309;
+}
+
+section{
+    display: flex;
+    margin-top: 40px;
+}
+section > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 25%;
+    margin-left: 50px;
+}
+section > div > a {
+    width: 80%;
+    color:#973309;
+}
+section > div > a:hover, section > div > a:hover{
+    text-decoration: none;
+    color:#682408;
+}
+.estrela_desmarcada{
+    color:#504f4f
 }
