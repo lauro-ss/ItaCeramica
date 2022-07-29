@@ -6,6 +6,7 @@ body {
 header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 20px 20px 0px 20px;
@@ -26,6 +27,9 @@ li{
 }
 
 /* Cabeçalho */
+.logo_header{
+    width: 150px;
+}
 .logo_header:hover{
     cursor: pointer;
 }
@@ -52,9 +56,12 @@ li{
 }
 
 .caixa_pesquisa{
+    display: flex;
+    align-items: center;
     background-color: #973309;
     color: white;
     margin-left: 20px;
+    width: 50%;
 }
 
 .caixa_pesquisa input{
@@ -65,7 +72,7 @@ li{
     font-size: 15px;
     padding: 20px;
     height: 2px;
-    width: 350px;
+    width: 100%;
 }
 
 .lupa_pesquisa{
@@ -95,6 +102,8 @@ li{
 
 .logo_and_pesquisa{
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
 .carrinho_and_botao_entrar{
@@ -103,8 +112,18 @@ li{
 /* fim cabeçalho */
 
 /* nav abaixo do cabeçalho */
+nav > ul > li > a{
+    color: white !important;
+}
+
 .nav_bottom_header{
-    margin: 15px 10px 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+    background-color: #973309;
 }
 
 .links_nav{
@@ -116,13 +135,13 @@ li{
 }
 
 .link_nav{
-    padding: 0px 0px 10px 0px;
-    border-bottom: 2px solid transparent;
+    background-color: transparent;
+    padding: 10px;
 }
 
 .link_nav:hover{
+    background-color: #682408;
     text-decoration: none;
-    border-bottom: 2px solid #973309;
 }
 /* fim do nav */
 
