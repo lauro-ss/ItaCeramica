@@ -160,14 +160,16 @@ main > h2{
 
 section{
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 section > div{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    width: 25%;
-    margin-left: 50px;
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 section > div > a {
     width: 80%;
@@ -215,6 +217,7 @@ section > div > a:hover, section > div > a:hover{
 .social{
     width: 50%;
     text-align: center;
+    margin-left: 0px;
 }
 
 .redes_social{
@@ -235,6 +238,7 @@ section > div > a:hover, section > div > a:hover{
     text-align: center;
     font-size: 17px;
     width: 50%;
+    margin-left: 0px;
 }
 
 .mensagem_footer{
