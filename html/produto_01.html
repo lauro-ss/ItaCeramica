@@ -39,7 +39,7 @@
         </ul>
     </nav>
     
-    <section>
+    <section class="section_produto">
         <img src="../img/PISO_CINZA_POL_DO_RETIFICADO_74,5X74,5CM.jpg" alt="piso cinza polido retificado" height="300" width="300">
         <div class="infor_produto">
             <h1>PISO CINZA POLIDO RETIFICADO 74,5X74,5CM</h1>
@@ -61,54 +61,39 @@
             </ul>
         </div>
     </section>
-    <div>
-        <input type="number" name="quantidade" id="quantidade" min="1" placeholder="Quantidade">
+    <p class="text_centrado">Quantidade disponível por m²: 46</p>
+    <div class="input_quantidade">
+        <label for="quantidade">Quantidade</label>
+        <input type="number" name="quantidade" id="quantidade" min="1" value="1">
         <button>Adicionar ao carrinho</button>
     </div>
-    <section>
-        
-    </section>
     
-    <section>
+    <div class="feedback">
         <h2>Ficou com dúvidas? Quer dar um feedback? Contate-nos!</h2>
-        <h3>Para entrar em contato basta <a href="../html/formulario_contato.html" target="_blank">clicar aqui!</a></h3>
+        <button><a href="../html/formulario_contato.html" target="_blank">Entrar em contato</a></button>
+    </div>
+    <section>
+        <div class="social">
+            <ul class="redes_social">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>  
+                </li>
+            </ul>   
+        </div>
+        <div class="atendimento">
+            <p><b>Atendimento</b></p>   
+            <p>0800 777 7000</p>
+        </div>
     </section>
-    
-    <footer>
-        <table>
-            <tr>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <th>Redes Sociais</th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <th>Atendimento</th>
-            </tr>
-            <tr>
-                <th>
-                    <a href="#"><img src="../img/facebook.png" alt="logo do facebook" height="16" width="16"></a>
-                </th>
-                <th>
-                    <a href="#"><img src="../img/instagram.png" alt="logo do instagram" height="16" width="16"></a>
-                </th>
-                <th>
-                    <a href="#"><img src="../img/youtube.png" alt="logo do youtube" height="16" width="16"></a>
-                </th>
-                <!--conteudos em branco para dar espaçamento-->
-                <th>
-                </th>
-                <th>
-                </th>
-                <!--conteudos em branco para dar espaçamento-->
-                <th>
-                    <p>0800 777 7000</p>
-                </th>
-            </tr>
-        </table>
-    </footer>
+    <h5 class="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
 </body>
 </html>

@@ -252,7 +252,7 @@ section > div > a:hover, section > div > a:hover{
 /* fim footer */
 
 /*tela de exebicao de produto */
-.infor_produto > h1, h2{
+.infor_produto > h1, .infor_produto > h2{
     margin: 0;
 }
 .infor_produto {
@@ -268,4 +268,45 @@ section > div > a:hover, section > div > a:hover{
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.section_produto{
+    margin: 50px 0px 30px 50px;
+}
+.input_quantidade{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.input_quantidade > input{
+    width: 80px;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    color:#973309;
+}
+.input_quantidade > label{
+    font-weight: 600;
+    color: #973309;
+    margin-right: 5px;
+}
+.input_quantidade > input:focus {
+    outline: none;
+    border: 2px solid #973309;
+}
+.input_quantidade > button{
+    margin-left: 20px;
+    background-color: #973309;
+    border: none;
+    padding: 10px;
+    color:#f7f1ee;
+    border-radius: 10px;
+}
+.input_quantidade > button:hover{
+    background-color: #682408;
+}
+.text_centrado{
+    text-align: center;
+    color: #5c5c5c;
 }
