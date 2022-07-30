@@ -5,37 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ita Cerâmica | Piso Cinza Polido Retificado 74,5x74,5cm</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- esse script só traz os icones que podem receber cores do css -->
+    <script src="https://kit.fontawesome.com/c1e5ef1fc4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Ita Cerâmica</h1>
+        <div class="logo_and_pesquisa">
+            <img class="logo_header" src="../img/logo_ita_cerâmica.svg" alt="logo ita cerâmica">
+            <span class="caixa_pesquisa">
+                <input type="text" placeholder="Procurando por algo?">
+                <i class="lupa_pesquisa fa-solid fa-magnifying-glass"></i>
+            </span>
+        </div>
+        <div class="carrinho_and_botao_entrar">
+            <span class="carrinho_header_number">
+                <i class="carrinho_header fa-solid fa-cart-shopping"></i>
+                <span class="carrinho_number" >0</span>
+            </span>
+            <button type="button" class="botao_entrar">
+                    Entrar <i class="icone_entrar fa-solid fa-right-to-bracket"></i>
+            </button>
+        </div>
+    </header>
     <nav>
-        <ul>
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="#">Mais Vendidos</a></li>
-            <li><a href="#">Novos Produtos</a></li>
-            <li><a href="#">Promoções</a></li>
+        <ul class="links_nav">
+            <li><a class="link_nav" href="../index.html"> <i class="fa-solid fa-house"></i></a></li>
+            <li><a class="link_nav" href="#">Mais Vendidos</a></li>
+            <li><a class="link_nav" href="#">Promoções</a></li>
+            <li><a class="link_nav" href="#">Novos Produtos</a></li>
+            <li><a class="link_nav" href="#">Pisos</a></li>
+            <li><a class="link_nav" href="#">Porcelanatos</a></li>
         </ul>
     </nav>
-    </header>
     
     <section>
-        <h2>PISO CINZA POLIDO RETIFICADO 74,5X74,5CM</h2>
         <img src="../img/PISO_CINZA_POL_DO_RETIFICADO_74,5X74,5CM.jpg" alt="piso cinza polido retificado" height="300" width="300">
-        <h3>R$ 61,99/m²</h3>
+        <div class="infor_produto">
+            <h1>PISO CINZA POLIDO RETIFICADO 74,5X74,5CM</h1>
+            <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <h2 class="valor">R$ 61,99/m²</h2>
+            <h3>Informações do produto</h3>
+            <ul class="descricao_produto">
+                <li><b>Formato:</b> 74x74cm</li>
+                <li><b>Tipo:</b> PISO</li>
+                <li><b>Acabamento:</b> POLIDO</li>
+                <li><b>Cor Predominante:</b> CINZA</li>
+                <li><b>Área:</b> INTERNO</li>
+            </ul>
+        </div>
+    </section>
+    <div>
         <input type="number" name="quantidade" id="quantidade" min="1" placeholder="Quantidade">
         <button>Adicionar ao carrinho</button>
-    </section>
-    
+    </div>
     <section>
-        <h3>Informações do produto</h3>
-        <ul>
-            <li>Formato: 74x74cm</li>
-            <li>Tipo: PISO</li>
-            <li>Acabamento: POLIDO</li>
-            <li>Cor Predominante: CINZA</li>
-            <li>Área: INTERNO</li>
-        </ul>
+        
     </section>
     
     <section>

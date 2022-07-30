@@ -168,7 +168,8 @@ section > div{
     flex-direction: column;
     row-gap: 10px;
     width: 20%;
-    margin-left: 60px;
+    flex: 1 1 200px;
+    margin-left: 51px;
     margin-top: 10px;
 }
 section > div > a {
@@ -247,4 +248,24 @@ section > div > a:hover, section > div > a:hover{
     width: 70%;
     margin: auto;
     padding: 20px;
+}
+/* fim footer */
+
+/*tela de exebicao de produto */
+.infor_produto > h1, h2{
+    margin: 0;
+}
+.infor_produto {
+    color:#973309;
+}
+.descricao_produto{
+    display: contents;
+}
+.descricao_produto > li{
+    margin-left: 10px;
+}
+.valor{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
