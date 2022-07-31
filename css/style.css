@@ -60,6 +60,7 @@ li{
 }
 
 .caixa_pesquisa{
+    flex: 1;
     display: flex;
     align-items: center;
     background-color: #973309;
@@ -93,6 +94,12 @@ li{
     outline: none;
 }
 
+.logo_and_pesquisa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
 .carrinho_header_number{
     cursor: default;
     margin-right: 20px;
@@ -102,12 +109,6 @@ li{
     color: #973309;
     font-weight: bold;
     cursor: default;
-}
-
-.logo_and_pesquisa{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
 }
 
 .carrinho_and_botao_entrar{
@@ -122,8 +123,6 @@ nav > ul > li > a{
 
 nav{
     margin-top: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     width: 100%;
     background-color: #973309;
 }
@@ -137,6 +136,7 @@ nav{
 }
 
 .link_nav{
+    display: block;
     background-color: transparent;
     padding: 10px;
 }
@@ -463,4 +463,30 @@ form > div > label{
   #control_form > input[type="reset"]:hover{
     background: #3b3b3b;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .logo_and_pesquisa{
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+        margin: 10px 0px 0px 0px;
+    }
+    .links_nav{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .caixa_pesquisa{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .logo_and_pesquisa{
+        flex-direction: column;
+        width: 80%;
+    }
   }
