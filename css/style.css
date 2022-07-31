@@ -522,6 +522,13 @@ form > div > label{
         row-gap: 10px;
     }
   }
+  @media only screen and (max-width: 375px){
+    .redes_social{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
   @media only screen and (max-width: 330px){
     .infor_foto > img{
         width: 265px;
