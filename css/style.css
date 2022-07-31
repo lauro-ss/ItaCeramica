@@ -193,22 +193,17 @@ section > div > a:hover, section > div > a:hover{
     background-color: #682408;
 }
 .feedback > h2{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
 }
-.feedback > button > a{
+.feedback > a{
     color: #682408;
-}
-
-.feedback > button {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     background-color: #ffffff;
-    border: none;
-    cursor: pointer;
 }
 
-.feedback > button:hover{
+.feedback > a:hover{
     background-color: #f7f1ee;
 }
 
@@ -397,7 +392,7 @@ form > div > label{
     left: 0;
     height: 17px;
     width: 17px;
-    background-color: #979797
+    background-color: #979797;
   }
   
 .container:hover input ~ .checkmark {
@@ -436,4 +431,36 @@ form > div > label{
 
   #mark_receber_novidades{
     width: 32%;
+  }
+
+  #control_form{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+  }
+
+  #control_form > input{
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: white;
+    border: none;
+  }
+
+  #control_form > input[type="submit"]{
+    background: #973309;
+  }
+
+  #control_form > input[type="submit"]:hover{
+    background: #682408;
+    cursor: pointer;
+  }
+
+  #control_form > input[type="reset"]{
+    background: #979797;
+  }
+
+  #control_form > input[type="reset"]:hover{
+    background: #3b3b3b;
+    cursor: pointer;
   }
