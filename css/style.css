@@ -310,3 +310,130 @@ section > div > a:hover, section > div > a:hover{
     text-align: center;
     color: #5c5c5c;
 }
+
+/*formulario */
+.div_formulario{
+    color:#973309;
+    margin: 30px;
+}
+
+form > div{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+form > div > input{
+    margin-bottom: 5px;
+}
+
+.campo_formulario > input{
+    border: 2px solid #973309;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.campo_formulario > input:focus{
+    border: 2px solid #682408;
+    color: #3b3b3b;
+    outline: none;
+}
+
+.campo_formulario > textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #973309;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.campo_formulario > textarea:focus{
+    border: 2px solid #682408;
+    color: #3b3b3b;
+    outline: none;
+}
+
+form > div > label{
+    font-weight: 600;
+}
+#nome{
+    width: 300px;
+}
+#telefone{
+    width: 140px;
+}
+#email{
+    width: 200px;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #979797
+  }
+  
+.container:hover input ~ .checkmark {
+    background-color: #3b3b3b;
+  }
+  
+.container input:checked ~ .checkmark {
+    background-color: #973309;
+  }
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+.container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #mark_soucliente{
+    width: 108px;
+  }
+
+  #mark_receber_novidades{
+    width: 32%;
+  }
