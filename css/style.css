@@ -48,7 +48,7 @@ li{
     cursor: pointer;
 }
 #botao_entrar:hover{
-
+    background: #c54108;
 }
 #icone_entrar{
     font-size: 13px;
@@ -92,7 +92,7 @@ li{
 }
 
 #caixa_pesquisa input:focus{
-    border: 2px solid #161616;
+    border: 2px solid #504f4f;
     outline: none;
 }
 
@@ -124,12 +124,14 @@ nav > ul > li > a{
 }
 
 nav{
+    display: flex;
+    justify-content: space-between;
     margin-top: 15px;
     width: 100%;
     background-color: #D34204;
 }
 
-#links_nav{
+.links_nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -503,6 +505,12 @@ form > div > label{
         flex-direction: column;
         margin: 10px 0px 0px 0px;
     }
+    nav{
+        flex-direction: column;
+    }
+    #links_nav_helpers{
+        margin-top: 15px;
+    }
     .links_nav{
         display: flex;
         flex-direction: column;
@@ -518,29 +526,29 @@ form > div > label{
     }
   }
   @media only screen and (max-width: 425px) {
-    .section_produto{
+    #section_produto{
         margin: 50px 0px 30px 10px;
     }
     section > div{
         margin-left: 0px;
     }
-    .infor_foto > img{
+    #infor_foto > img{
         width: 300px;
         height: 300px;
     }
-    .input_quantidade{
+    #input_quantidade{
         row-gap: 10px;
     }
   }
   @media only screen and (max-width: 375px){
-    .redes_social{
+    #redes_social{
         display: flex;
         justify-content: space-evenly;
     }
   }
 
   @media only screen and (max-width: 330px){
-    .infor_foto > img{
+    #infor_foto > img{
         width: 265px;
         height: 265px;
     }

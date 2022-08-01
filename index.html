@@ -15,8 +15,8 @@
             <div id="logo_and_pesquisa">
                 <img id="logo_header" src="./img/logo_ita_cerâmica.svg" alt="logo ita cerâmica">
                 <span id="caixa_pesquisa">
-                    <input type="text" placeholder="Procurando por algo?">
-                    <i id="lupa_pesquisa" class="fa-solid fa-magnifying-glass"></i>
+                    <input name="buscador" id="buscador" type="text" placeholder="Procurando por algo?">
+                    <label for="buscador" id="lupa_pesquisa" ><i class="fa-solid fa-magnifying-glass"></i></label>
                 </span>
             </div>
             <div id="carrinho_and_botao_entrar">
@@ -30,13 +30,16 @@
             </div>
         </header>
         <nav>
-            <ul id="links_nav">
+            <ul class="links_nav">
                 <li><a class="link_nav" href="./index.html"> <i class="fa-solid fa-house"></i></a></li>
                 <li><a class="link_nav" href="#">Mais Vendidos</a></li>
                 <li><a class="link_nav" href="#">Promoções</a></li>
                 <li><a class="link_nav" href="#">Novos Produtos</a></li>
                 <li><a class="link_nav" href="#">Pisos</a></li>
                 <li><a class="link_nav" href="#">Porcelanatos</a></li>
+            </ul>
+            <ul class="links_nav" id="links_nav_helpers">
+                <li><a class="link_nav" href="#feedback"> <i class="fa-solid fa-question"></i> </a></li>
             </ul>
         </nav>
         
@@ -154,6 +157,7 @@
                 </div>
             </section>
         </main>
+
         <div id="feedback">
             <h2>Ficou com dúvidas? Quer dar um feedback? Contate-nos!</h2>
             <a href="./html/formulario_contato.html" target="_blank">Entrar em contato</a>
@@ -180,6 +184,6 @@
                 <p>0800 777 7000</p>
             </div>
         </section>
-        <h5 class="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
+        <h5 id="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
     </body>
 </html>
