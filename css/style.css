@@ -31,87 +31,89 @@ li{
 }
 
 /* Cabeçalho */
-.logo_header{
+#logo_header{
     width: 150px;
 }
-.logo_header:hover{
+#logo_header:hover{
     cursor: pointer;
 }
 
-.botao_entrar{
-    border: 2px solid #973309;
+#botao_entrar{
+    border: none;
     color: white;
-    background-color: #973309;
-    border-radius: 10px;
-    padding: 8px 10px;
+    background-color: #D34204;
+    border-radius: 20px;
+    padding: 8px 20px;
     font-size: 18px;
     cursor: pointer;
 }
+#botao_entrar:hover{
 
-.icone_entrar{
+}
+#icone_entrar{
     font-size: 13px;
 }
 
-.carrinho_header{
-    color: #973309;
+#carrinho_header{
+    color: #161616;
     font-size: 30px;
     margin-top: 6px;
     cursor: pointer;
 }
 
-.caixa_pesquisa{
+#caixa_pesquisa{
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #973309;
+    background-color: #161616;
     color: white;
     margin-left: 20px;
     width: 50%;
 }
 
-.caixa_pesquisa input{
+#caixa_pesquisa input{
     border: none;
-    color: #973309;
+    color: #161616;
     background-color: white;
-    border: 2px solid #973309;
+    border: 2px solid #161616;
     font-size: 15px;
     padding: 20px;
     height: 2px;
     width: 100%;
 }
 
-.lupa_pesquisa{
+#lupa_pesquisa{
     padding-right: 16px;
     padding-left: 12px;
 }
 
-.caixa_pesquisa input::placeholder{
-    color:#973309;
+#caixa_pesquisa input::placeholder{
+    color:#161616;
 }
 
-.caixa_pesquisa input:focus{
-    border: 2px solid #682408;
+#caixa_pesquisa input:focus{
+    border: 2px solid #161616;
     outline: none;
 }
 
-.logo_and_pesquisa{
+#logo_and_pesquisa{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
 }
 
-.carrinho_header_number{
+#carrinho_header_number{
     cursor: default;
     margin-right: 20px;
 }
 
-.carrinho_number{
-    color: #973309;
+#carrinho_number{
+    color: #161616;
     font-weight: bold;
     cursor: default;
 }
 
-.carrinho_and_botao_entrar{
+#carrinho_and_botao_entrar{
     display: flex;
 }
 /* fim cabeçalho */
@@ -124,10 +126,10 @@ nav > ul > li > a{
 nav{
     margin-top: 15px;
     width: 100%;
-    background-color: #973309;
+    background-color: #D34204;
 }
 
-.links_nav{
+#links_nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -142,25 +144,26 @@ nav{
 }
 
 .link_nav:hover{
-    background-color: #682408;
+    background-color: #161616;
     text-decoration: none;
 }
 /* fim do nav */
 
 /* produtos no meio */
 main{
-    color:#973309;
+    color:#161616;
     margin: 35px;
 }
 
 main > h2{
     padding-bottom: 10px;
-    border-bottom: 2px solid #973309;
+    border-bottom: 2px solid #161616;
 }
 
 section{
     display: flex;
     margin-top: 30px;
+    row-gap: 50px;
     flex-wrap: wrap;
 }
 section > div{
@@ -174,70 +177,74 @@ section > div{
 }
 section > div > a {
     width: 80%;
-    color:#973309;
+    font-weight: 600;
+    color:#161616;
 }
 section > div > a:hover, section > div > a:hover{
     text-decoration: none;
-    color:#682408;
+    color:#D34204;
 }
 .estrela_desmarcada{
-    color:#504f4f
+    color:#504f4f;
+}
+.estrela_marcada{
+    color:#D34204;
 }
 /* fim produtos no meio */
 
-.feedback{
+#feedback{
     color:white;
     margin-top: 30px;
     text-align: center;
     padding: 30px;
-    background-color: #682408;
+    background-color: #D34204;
 }
-.feedback > h2{
+#feedback > h2{
     margin: 0px 0px 20px 0px;
 }
-.feedback > a{
-    color: #682408;
+#feedback > a{
+    color: #161616;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     background-color: #ffffff;
 }
 
-.feedback > a:hover{
+#feedback > a:hover{
     background-color: #f7f1ee;
 }
 
 /* fim feedback */
 
 /* footer */
-.social{
+#social{
     width: 50%;
     text-align: center;
     margin-left: 0px;
 }
 
-.redes_social{
+#redes_social{
     padding: 0;
 }
 
-.redes_social li{
+#redes_social li{
     font-size: 20px;
     margin-right: 10px;
 }
 
-.redes_social li > a{
-    color: #973309;
+#redes_social li > a{
+    color: #D34204;
 }
 
-.atendimento{
-    color:#973309;
+#atendimento{
+    color:#D34204;
     text-align: center;
     font-size: 17px;
     width: 50%;
     margin-left: 0px;
 }
 
-.mensagem_footer{
+#mensagem_footer{
     text-align: center;
     color: #504f4f;
     width: 70%;
@@ -247,76 +254,79 @@ section > div > a:hover, section > div > a:hover{
 /* fim footer */
 
 /*tela de exebicao de produto */
-.infor_produto > h1, .infor_produto > h2{
+#infor_produto > h1, #infor_produto > h2{
     margin: 0;
 }
-.infor_foto{
-    background: #68240896;
+#infor_foto{
+    background: #504f4f;
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
 }
-.infor_foto:hover{
-    background: #682408;
+#infor_foto:hover{
+    background: #161616;
 }
-.infor_foto > ul{
+#infor_foto > ul{
     margin: 10px 0px 0px 0px;
     padding: 0;
 }
-.infor_foto > ul > li{
+#infor_foto > ul > li{
     cursor: pointer;
     margin-right: 10px;
 }
 
-.infor_produto {
-    color:#973309;
+#infor_produto {
+    color:#161616;
 }
-.descricao_produto{
+#descricao_produto{
     display: contents;
 }
-.descricao_produto > li{
+#descricao_produto > li{
     margin-left: 10px;
 }
-.valor{
+#valor{
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.section_produto{
+#section_produto{
     margin: 50px 0px 30px 50px;
 }
-.input_quantidade{
+#input_quantidade{
     margin-top: 10px;
     display: flex;
+    flex-direction: column;
+    row-gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.input_quantidade > input{
+#input_quantidade > label > input{
     width: 80px;
     padding: 10px;
     font-size: 14px;
-    color:#973309;
-    border: 2px solid #973309;
+    color:#161616;
+    border: 2px solid #504f4f;
 }
-.input_quantidade > label{
+#input_quantidade > label{
     font-weight: 600;
-    color: #973309;
+    color: #161616;
     margin-right: 5px;
 }
-.input_quantidade > input:focus {
+#input_quantidade > label > input:focus {
     outline: none;
-    border: 2px solid #682408;
+    border: 2px solid #161616;
 }
-.input_quantidade > button{
-    margin-left: 20px;
-    background-color: #973309;
+#input_quantidade > button{
+    background-color: #161616;
     border: none;
-    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
     color:#f7f1ee;
     border-radius: 10px;
 }
-.input_quantidade > button:hover{
-    background-color: #682408;
+#input_quantidade > button:hover{
+    background-color: #D34204;
 }
 .text_centrado{
     text-align: center;
@@ -498,11 +508,11 @@ form > div > label{
         flex-direction: column;
         row-gap: 10px;
     }
-    .caixa_pesquisa{
+    #caixa_pesquisa{
         width: 100%;
         margin: 10px 0px 10px 0px;
     }
-    .logo_and_pesquisa{
+    #logo_and_pesquisa{
         flex-direction: column;
         width: 80%;
     }
