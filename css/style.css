@@ -171,6 +171,7 @@ section{
 }
 section > div{
     display: grid;
+    row-gap: 5px;
     width: 200px;
 }
 section > div > a {
@@ -230,11 +231,11 @@ section > div > a:hover, section > div > a:hover{
 }
 
 #redes_social li > a{
-    color: #D34204;
+    color: #161616;
 }
 
 #atendimento{
-    color:#D34204;
+    color:#161616;
     text-align: center;
     font-size: 17px;
     width: 50%;
@@ -335,7 +336,7 @@ section > div > a:hover, section > div > a:hover{
 
 /*formulario */
 .div_formulario{
-    color:#973309;
+    color:#161616;
     margin: 30px;
 }
 
@@ -349,7 +350,7 @@ form > div > input{
 }
 
 .campo_formulario > input{
-    border: 2px solid #973309;
+    border: 2px solid #161616;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -357,14 +358,14 @@ form > div > input{
 }
 
 .campo_formulario > input:focus{
-    border: 2px solid #682408;
-    color: #3b3b3b;
+    border: 2px solid #D34204;
+    color: #161616;
     outline: none;
 }
 
 .campo_formulario > textarea{
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #973309;
+    border: 2px solid #161616;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -373,8 +374,8 @@ form > div > input{
 }
 
 .campo_formulario > textarea:focus{
-    border: 2px solid #682408;
-    color: #3b3b3b;
+    border: 2px solid #D34204;
+    color: #161616;
     outline: none;
 }
 
@@ -388,7 +389,7 @@ form > div > label{
     width: 140px;
 }
 #email{
-    width: 200px;
+    width: 250px;
 }
 
 /* The container */
@@ -427,7 +428,7 @@ form > div > label{
   }
   
 .container input:checked ~ .checkmark {
-    background-color: #973309;
+    background-color: #D34204;
   }
   
 .checkmark:after {
@@ -475,11 +476,11 @@ form > div > label{
   }
 
   #control_form > input[type="submit"]{
-    background: #973309;
+    background: #D34204;
   }
 
   #control_form > input[type="submit"]:hover{
-    background: #682408;
+    background: #c54108;
     cursor: pointer;
   }
 

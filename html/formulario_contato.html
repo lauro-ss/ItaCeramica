@@ -11,23 +11,24 @@
 </head>
 <body>
     <header>
-        <div class="logo_and_pesquisa">
-            <img class="logo_header" src="../img/logo_ita_cerâmica.svg" alt="logo ita cerâmica">
-            <span class="caixa_pesquisa">
+        <div id="logo_and_pesquisa">
+            <img id="logo_header" src="../img/logo_ita_cerâmica.svg" alt="logo ita cerâmica">
+            <span id="caixa_pesquisa">
                 <input type="text" placeholder="Procurando por algo?">
-                <i class="lupa_pesquisa fa-solid fa-magnifying-glass"></i>
+                <i id="lupa_pesquisa" class="fa-solid fa-magnifying-glass"></i>
             </span>
         </div>
-        <div class="carrinho_and_botao_entrar">
-            <span class="carrinho_header_number">
-                <i class="carrinho_header fa-solid fa-cart-shopping"></i>
-                <span class="carrinho_number" >0</span>
+        <div id="carrinho_and_botao_entrar">
+            <span id="carrinho_header_number">
+                <i id="carrinho_header" class="fa-solid fa-cart-shopping"></i>
+                <span id="carrinho_number" >0</span>
             </span>
-            <button type="button" class="botao_entrar">
-                    Entrar <i class="icone_entrar fa-solid fa-right-to-bracket"></i>
+            <button type="button" id="botao_entrar">
+                    Entrar <i id="icone_entrar" class="fa-solid fa-right-to-bracket"></i>
             </button>
         </div>
     </header>
+
     <nav>
         <ul class="links_nav">
             <li><a class="link_nav" href="../index.html"> <i class="fa-solid fa-house"></i></a></li>
@@ -36,6 +37,9 @@
             <li><a class="link_nav" href="#">Novos Produtos</a></li>
             <li><a class="link_nav" href="#">Pisos</a></li>
             <li><a class="link_nav" href="#">Porcelanatos</a></li>
+        </ul>
+        <ul class="links_nav" id="links_nav_helpers">
+            <li><a class="link_nav" href="#feedback"> <i class="fa-solid fa-question"></i> </a></li>
         </ul>
     </nav>
 
@@ -90,11 +94,11 @@
         </form>
     </div>
 
-    <div class="feedback">
+    <div id="feedback">
     </div>
     <section>
-        <div class="social">
-            <ul class="redes_social">
+        <div id="social">
+            <ul id="redes_social">
                 <li>
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>    
                 </li>
@@ -109,11 +113,12 @@
                 </li>
             </ul>   
         </div>
-        <div class="atendimento">
+        
+        <div id="atendimento">
             <p><b>Atendimento</b></p>   
             <p>0800 777 7000</p>
         </div>
     </section>
-    <h5 class="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
+    <h5 id="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
 </body>
 </html>
