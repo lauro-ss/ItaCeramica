@@ -165,7 +165,7 @@ main > h2{
 section{
     display: flex;
     margin-top: 30px;
-    justify-content: space-around;
+    justify-content: space-between;
     row-gap: 50px;
     flex-wrap: wrap;
 }
@@ -520,6 +520,12 @@ form > div > label{
         width: 80%;
     }
   }
+  @media only screen and (max-width: 470px){
+    section{
+        justify-content: space-around;
+    }
+  }
+
   @media only screen and (max-width: 425px) {
     #section_produto{
         margin: 50px 0px 30px 10px;
