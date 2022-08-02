@@ -158,27 +158,22 @@ main{
 }
 
 main > h2{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #161616;
 }
 
 section{
     display: flex;
     margin-top: 30px;
+    justify-content: space-around;
     row-gap: 50px;
     flex-wrap: wrap;
 }
 section > div{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    width: 20%;
-    flex: 1 1 200px;
-    margin-left: 51px;
-    margin-top: 10px;
+    display: grid;
+    width: 200px;
 }
 section > div > a {
-    width: 80%;
     font-weight: 600;
     color:#161616;
 }
@@ -528,9 +523,6 @@ form > div > label{
   @media only screen and (max-width: 425px) {
     #section_produto{
         margin: 50px 0px 30px 10px;
-    }
-    section > div{
-        margin-left: 0px;
     }
     #infor_foto > img{
         width: 300px;
