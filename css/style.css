@@ -272,6 +272,8 @@ section > div > a:hover, section > div > a:hover{
 }
 
 #infor_produto {
+    width: auto;
+    row-gap: 20px;
     color:#161616;
 }
 #descricao_produto{
@@ -286,7 +288,8 @@ section > div > a:hover, section > div > a:hover{
     margin-bottom: 10px;
 }
 #section_produto{
-    margin: 50px 0px 30px 50px;
+    justify-content: space-evenly;
+    margin: 70px 0px 30px 0px;
 }
 #input_quantidade{
     margin-top: 10px;
@@ -528,7 +531,7 @@ form > div > label{
 
   @media only screen and (max-width: 425px) {
     #section_produto{
-        margin: 50px 0px 30px 10px;
+        margin: 50px 0px 30px 0px;
     }
     #infor_foto > img{
         width: 300px;
@@ -537,8 +540,19 @@ form > div > label{
     #input_quantidade{
         row-gap: 10px;
     }
+    #infor_produto{
+        padding-left: 10px;
+    }
   }
   @media only screen and (max-width: 375px){
+    #feedback > a{
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 10px 10px 10px;
+    }
+    #feedback > h2{
+        font-size: 16px;
+    }
     #redes_social{
         display: flex;
         justify-content: space-evenly;
