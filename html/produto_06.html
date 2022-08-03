@@ -5,79 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ita Cerâmica | Porcelanato verano esmeralda externo bold 14,5x14,5cm</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- esse script só traz os icones que podem receber cores do css -->
+    <script src="https://kit.fontawesome.com/c1e5ef1fc4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Ita Cerâmica</h1>
+        <div id="logo_and_pesquisa">
+            <img id="logo_header" src="../img/logo_ita_cerâmica.svg" alt="logo ita cerâmica">
+            <span id="caixa_pesquisa">
+                <input type="text" placeholder="Procurando por algo?">
+                <i id="lupa_pesquisa" class="fa-solid fa-magnifying-glass"></i>
+            </span>
+        </div>
+        <div id="carrinho_and_botao_entrar">
+            <span id="carrinho_header_number">
+                <i id="carrinho_header" class="fa-solid fa-cart-shopping"></i>
+                <span id="carrinho_number" >0</span>
+            </span>
+            <button type="button" id="botao_entrar">
+                    Entrar <i id="icone_entrar" class="fa-solid fa-right-to-bracket"></i>
+            </button>
+        </div>
+    </header>
+
     <nav>
-        <ul>
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="#">Mais Vendidos</a></li>
-            <li><a href="#">Novos Produtos</a></li>
-            <li><a href="#">Promoções</a></li>
+        <ul class="links_nav">
+            <li><a class="link_nav" href="../index.html"> <i class="fa-solid fa-house"></i></a></li>
+            <li><a class="link_nav" href="#">Mais Vendidos</a></li>
+            <li><a class="link_nav" href="#">Promoções</a></li>
+            <li><a class="link_nav" href="#">Novos Produtos</a></li>
+            <li><a class="link_nav" href="#">Pisos</a></li>
+            <li><a class="link_nav" href="#">Porcelanatos</a></li>
+        </ul>
+        <ul class="links_nav" id="links_nav_helpers">
+            <li><a class="link_nav" href="#feedback"> <i class="fa-solid fa-question"></i> </a></li>
         </ul>
     </nav>
-    </header>
     
-    <section>
-        <h2>PORCELANATO VERANO ESMERALDA EXTERNO BOLD 14,5X14,5CM</h2>
-        <img src="../img/PORCELANATO_VERANO_ESMERALDA_EXTERNO_BOLD_14,5X14,5CM.jpg" alt="porcelanato verano esmeralda" height="300" width="300">
-        <h3>R$ 130,99/m²</h3>
-        <input type="number" name="quantidade" id="quantidade" min="1" placeholder="Quantidade">
+    <section id="section_produto">
+        <span id="infor_foto">
+            <img src="../img/PORCELANATO_VERANO_ESMERALDA_EXTERNO_BOLD_14,5X14,5CM.jpg" alt="porcelanato verano esmeralda" height="300" width="300">
+            <ul>
+                <li>
+                    <img src="../img/PORCELANATO_VERANO_ESMERALDA_EXTERNO_BOLD_14,5X14,5CM.jpg" alt="porcelanato verano esmeralda" height="50" width="50">
+                </li>
+                <li>
+                    <img src="../img/PORCELANATO_VERANO_ESMERALDA_EXTERNO_BOLD_14,5X14,5CM.jpg" alt="porcelanato verano esmeralda" height="50" width="50">
+                </li>
+            </ul>
+        </span>
+        <div id="infor_produto">
+            <h1>PORCELANATO VERANO ESMERALDA EXTERNO BOLD 14,5X14,5CM</h1>
+            <span>
+                <i class="estrela_marcada fa-solid fa-star"></i>
+                <i class="estrela_marcada fa-solid fa-star"></i>
+                <i class="estrela_marcada fa-solid fa-star"></i>
+                <i class="estrela_marcada fa-solid fa-star"></i>
+                <i class="estrela_marcada fa-solid fa-star"></i>
+            </span>
+            <h2 id="valor">R$ 130,99/m²</h2>
+            <h3>Informações do produto</h3>
+            <ul id="descricao_produto">
+                <li>Formato: 14.5x14.5cm</li>
+                <li>Tipo: PORCELANATO</li>
+                <li>Acabamento: BOLD</li>
+                <li>Cor Predominante: CINZA</li>
+                <li>Área: INTERNO E EXTERNO</li>
+            </ul>
+        </div>
+    </section>
+    <p class="text_centrado">Quantidade disponível por m²: 46</p>
+    <div id="input_quantidade">
+        <label>Quantidade <input type="number" name="quantidade" min="1" value="1"> </label>
         <button>Adicionar ao carrinho</button>
-    </section>
-
-    <section>
-        <h3>Informações do produto</h3>
-        <ul>
-            <li>Formato: 14.5x14.5cm</li>
-            <li>Tipo: PORCELANATO</li>
-            <li>Acabamento: BOLD</li>
-            <li>Cor Predominante: CINZA</li>
-            <li>Área: INTERNO E EXTERNO</li>
-        </ul>
-    </section>
+    </div>
     
-    <section>
+    <div id="feedback">
         <h2>Ficou com dúvidas? Quer dar um feedback? Contate-nos!</h2>
-        <h3>Para entrar em contato basta <a href="../html/formulario_contato.html" target="_blank">clicar aqui!</a></h3>
+        <a href="../html/formulario_contato.html" target="_blank">Entrar em contato</a>
+    </div>
+    <section>
+        <div id="social">
+            <ul id="redes_social">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>  
+                </li>
+            </ul>   
+        </div>
+        
+        <div id="atendimento">
+            <p><b>Atendimento</b></p>   
+            <p>0800 777 7000</p>
+        </div>
     </section>
-    
-    <footer>
-        <table>
-            <tr>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <th>Redes Sociais</th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <!--Espaço em branco para enquadrar aa coluna-->
-                <th></th>
-                <th>Atendimento</th>
-            </tr>
-            <tr>
-                <th>
-                    <a href="#"><img src="../img/facebook.png" alt="logo do facebook" height="16" width="16"></a>
-                </th>
-                <th>
-                    <a href="#"><img src="../img/instagram.png" alt="logo do instagram" height="16" width="16"></a>
-                </th>
-                <th>
-                    <a href="#"><img src="../img/youtube.png" alt="logo do youtube" height="16" width="16"></a>
-                </th>
-                <!--conteudos em branco para dar espaçamento-->
-                <th>
-                </th>
-                <th>
-                </th>
-                <!--conteudos em branco para dar espaçamento-->
-                <th>
-                    <p>0800 777 7000</p>
-                </th>
-            </tr>
-        </table>
-    </footer>
+    <h5 id="mensagem_footer">Ita Cerâmica é um site ficticio feito com o objetivo de realizar as práticas da disciplina SINF0035 - Tecnologias de Desenvolvimento para Internet, qualquer semelhança com produtos reais é mero produto de aprendizagem e não uma comercialização.</h5>
 </body>
 </html>

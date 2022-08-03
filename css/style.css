@@ -233,6 +233,9 @@ section > div > a:hover, section > div > a:hover{
 #redes_social li > a{
     color: #161616;
 }
+#redes_social li > a:hover, #redes_social li > a:active{
+    color: #D34204;
+}
 
 #atendimento{
     color:#161616;
