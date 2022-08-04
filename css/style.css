@@ -338,7 +338,7 @@ section > div > a:hover, section > div > a:hover{
 }
 
 /*formulario */
-.div_formulario{
+#div_formulario{
     color:#2e2b29;
     margin: 30px;
 }
@@ -392,7 +392,7 @@ form > div > label{
     width: 140px;
 }
 #email{
-    width: 250px;
+    width: 300px;
 }
 
 /* The container */
@@ -460,13 +460,10 @@ form > div > label{
     width: 108px;
   }
 
-  #mark_receber_novidades{
-    width: 32%;
-  }
-
   #control_form{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 50px;
   }
 
@@ -526,13 +523,16 @@ form > div > label{
         flex-direction: column;
         width: 80%;
     }
-    #infor_produto{
-        width: auto;
+    #mensagem_footer{
+        font-size: 10px;
     }
   }
   @media only screen and (max-width: 600px) {
     #infor_produto{
         padding-left: 10px;
+    }
+    #infor_produto{
+        width: auto;
     }
   }
   @media only screen and (max-width: 470px){
@@ -566,11 +566,20 @@ form > div > label{
         display: flex;
         justify-content: space-evenly;
     }
+    #div_formulario{
+        margin: 5px;
+    }
   }
 
   @media only screen and (max-width: 330px){
     #infor_foto > img{
         width: 265px;
         height: 265px;
+    }
+    #nome, #email, .campo_formulario > textarea{
+        width: 90%;
+    }
+    form > div{
+        margin-left: 5px;
     }
   } 
