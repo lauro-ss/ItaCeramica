@@ -55,7 +55,7 @@ li{
 }
 
 #carrinho_header{
-    color: #161616;
+    color: #201f1d;
     font-size: 30px;
     margin-top: 6px;
     cursor: pointer;
@@ -65,7 +65,7 @@ li{
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #161616;
+    background-color: #201f1d;
     color: white;
     margin-left: 20px;
     width: 50%;
@@ -73,9 +73,9 @@ li{
 
 #caixa_pesquisa input{
     border: none;
-    color: #161616;
+    color: #201f1d;
     background-color: white;
-    border: 2px solid #161616;
+    border: 2px solid #201f1d;
     font-size: 15px;
     padding: 20px;
     height: 2px;
@@ -88,11 +88,11 @@ li{
 }
 
 #caixa_pesquisa input::placeholder{
-    color:#161616;
+    color:#201f1d;
 }
 
 #caixa_pesquisa input:focus{
-    border: 2px solid #504f4f;
+    border: 2px solid #000000;
     outline: none;
 }
 
@@ -108,7 +108,7 @@ li{
 }
 
 #carrinho_number{
-    color: #161616;
+    color: #201f1d;
     font-weight: bold;
     cursor: default;
 }
@@ -128,7 +128,7 @@ nav{
     justify-content: space-between;
     margin-top: 15px;
     width: 100%;
-    background-color: #D34204;
+    background-color: #201f1d;
 }
 
 .links_nav{
@@ -146,20 +146,20 @@ nav{
 }
 
 .link_nav:hover{
-    background-color: #161616;
+    background-color: #000000;
     text-decoration: none;
 }
 /* fim do nav */
 
 /* produtos no meio */
 main{
-    color:#161616;
+    color:#201f1d;
     margin: 35px;
 }
 
 main > h2{
     padding-bottom: 20px;
-    border-bottom: 2px solid #161616;
+    border-bottom: 2px solid #201f1d;
 }
 
 section{
@@ -176,7 +176,7 @@ section > div{
 }
 section > div > a {
     font-weight: 600;
-    color:#161616;
+    color:#201f1d;
 }
 section > div > a:hover, section > div > a:hover{
     text-decoration: none;
@@ -201,7 +201,7 @@ section > div > a:hover, section > div > a:hover{
     margin: 0px 0px 20px 0px;
 }
 #feedback > a{
-    color: #161616;
+    color: #201f1d;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
@@ -231,14 +231,14 @@ section > div > a:hover, section > div > a:hover{
 }
 
 #redes_social li > a{
-    color: #161616;
+    color: #201f1d;
 }
 #redes_social li > a:hover, #redes_social li > a:active{
     color: #D34204;
 }
 
 #atendimento{
-    color:#161616;
+    color: #201f1d;
     text-align: center;
     font-size: 17px;
     width: 50%;
@@ -264,7 +264,7 @@ section > div > a:hover, section > div > a:hover{
     padding: 10px 10px 10px 10px;
 }
 #infor_foto:hover{
-    background: #161616;
+    background: #201f1d;
 }
 #infor_foto > ul{
     margin: 10px 0px 0px 0px;
@@ -278,7 +278,7 @@ section > div > a:hover, section > div > a:hover{
 #infor_produto {
     width: auto;
     row-gap: 20px;
-    color:#161616;
+    color:#201f1d;
 }
 #descricao_produto{
     display: contents;
@@ -308,20 +308,20 @@ section > div > a:hover, section > div > a:hover{
     width: 80px;
     padding: 10px;
     font-size: 14px;
-    color:#161616;
+    color:#201f1d;
     border: 2px solid #504f4f;
 }
 #input_quantidade > label{
     font-weight: 600;
-    color: #161616;
+    color: #201f1d;
     margin-right: 5px;
 }
 #input_quantidade > label > input:focus {
     outline: none;
-    border: 2px solid #161616;
+    border: 2px solid #201f1d;
 }
 #input_quantidade > button{
-    background-color: #161616;
+    background-color: #201f1d;
     border: none;
     font-size: 17px;
     font-weight: 600;
@@ -339,7 +339,7 @@ section > div > a:hover, section > div > a:hover{
 
 /*formulario */
 .div_formulario{
-    color:#161616;
+    color:#201f1d;
     margin: 30px;
 }
 
@@ -353,7 +353,7 @@ form > div > input{
 }
 
 .campo_formulario > input{
-    border: 2px solid #161616;
+    border: 2px solid #201f1d;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -362,13 +362,13 @@ form > div > input{
 
 .campo_formulario > input:focus{
     border: 2px solid #D34204;
-    color: #161616;
+    color: #201f1d;
     outline: none;
 }
 
 .campo_formulario > textarea{
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #161616;
+    border: 2px solid #201f1d;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -378,7 +378,7 @@ form > div > input{
 
 .campo_formulario > textarea:focus{
     border: 2px solid #D34204;
-    color: #161616;
+    color: #201f1d;
     outline: none;
 }
 
@@ -427,7 +427,7 @@ form > div > label{
   }
   
 .container:hover input ~ .checkmark {
-    background-color: #3b3b3b;
+    background-color: #000000;
   }
   
 .container input:checked ~ .checkmark {
@@ -492,7 +492,7 @@ form > div > label{
   }
 
   #control_form > input[type="reset"]:hover{
-    background: #3b3b3b;
+    background: #000000;
     cursor: pointer;
   }
 
