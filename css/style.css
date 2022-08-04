@@ -55,7 +55,7 @@ li{
 }
 
 #carrinho_header{
-    color: #201f1d;
+    color: #2e2b29;
     font-size: 30px;
     margin-top: 6px;
     cursor: pointer;
@@ -65,7 +65,7 @@ li{
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #201f1d;
+    background-color: #2e2b29;
     color: white;
     margin-left: 20px;
     width: 50%;
@@ -73,9 +73,9 @@ li{
 
 #caixa_pesquisa input{
     border: none;
-    color: #201f1d;
+    color: #2e2b29;
     background-color: white;
-    border: 2px solid #201f1d;
+    border: 2px solid #2e2b29;
     font-size: 15px;
     padding: 20px;
     height: 2px;
@@ -88,7 +88,7 @@ li{
 }
 
 #caixa_pesquisa input::placeholder{
-    color:#201f1d;
+    color:#2e2b29;
 }
 
 #caixa_pesquisa input:focus{
@@ -108,7 +108,7 @@ li{
 }
 
 #carrinho_number{
-    color: #201f1d;
+    color: #2e2b29;
     font-weight: bold;
     cursor: default;
 }
@@ -128,7 +128,7 @@ nav{
     justify-content: space-between;
     margin-top: 15px;
     width: 100%;
-    background-color: #201f1d;
+    background-color: #2e2b29;
 }
 
 .links_nav{
@@ -153,13 +153,13 @@ nav{
 
 /* produtos no meio */
 main{
-    color:#201f1d;
+    color:#2e2b29;
     margin: 35px;
 }
 
 main > h2{
     padding-bottom: 20px;
-    border-bottom: 2px solid #201f1d;
+    border-bottom: 2px solid #2e2b29;
 }
 
 section{
@@ -176,7 +176,7 @@ section > div{
 }
 section > div > a {
     font-weight: 600;
-    color:#201f1d;
+    color:#2e2b29;
 }
 section > div > a:hover, section > div > a:hover{
     text-decoration: none;
@@ -201,7 +201,7 @@ section > div > a:hover, section > div > a:hover{
     margin: 0px 0px 20px 0px;
 }
 #feedback > a{
-    color: #201f1d;
+    color: #2e2b29;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
@@ -231,14 +231,14 @@ section > div > a:hover, section > div > a:hover{
 }
 
 #redes_social li > a{
-    color: #201f1d;
+    color: #2e2b29;
 }
 #redes_social li > a:hover, #redes_social li > a:active{
     color: #D34204;
 }
 
 #atendimento{
-    color: #201f1d;
+    color: #2e2b29;
     text-align: center;
     font-size: 17px;
     width: 50%;
@@ -264,7 +264,7 @@ section > div > a:hover, section > div > a:hover{
     padding: 10px 10px 10px 10px;
 }
 #infor_foto:hover{
-    background: #201f1d;
+    background: #2e2b29;
 }
 #infor_foto > ul{
     margin: 10px 0px 0px 0px;
@@ -276,9 +276,9 @@ section > div > a:hover, section > div > a:hover{
 }
 
 #infor_produto {
-    width: auto;
+    width: 50%;
     row-gap: 20px;
-    color:#201f1d;
+    color:#2e2b29;
 }
 #descricao_produto{
     display: contents;
@@ -308,20 +308,20 @@ section > div > a:hover, section > div > a:hover{
     width: 80px;
     padding: 10px;
     font-size: 14px;
-    color:#201f1d;
+    color:#2e2b29;
     border: 2px solid #504f4f;
 }
 #input_quantidade > label{
     font-weight: 600;
-    color: #201f1d;
+    color: #2e2b29;
     margin-right: 5px;
 }
 #input_quantidade > label > input:focus {
     outline: none;
-    border: 2px solid #201f1d;
+    border: 2px solid #2e2b29;
 }
 #input_quantidade > button{
-    background-color: #201f1d;
+    background-color: #2e2b29;
     border: none;
     font-size: 17px;
     font-weight: 600;
@@ -339,7 +339,7 @@ section > div > a:hover, section > div > a:hover{
 
 /*formulario */
 .div_formulario{
-    color:#201f1d;
+    color:#2e2b29;
     margin: 30px;
 }
 
@@ -353,7 +353,7 @@ form > div > input{
 }
 
 .campo_formulario > input{
-    border: 2px solid #201f1d;
+    border: 2px solid #2e2b29;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -362,13 +362,13 @@ form > div > input{
 
 .campo_formulario > input:focus{
     border: 2px solid #D34204;
-    color: #201f1d;
+    color: #2e2b29;
     outline: none;
 }
 
 .campo_formulario > textarea{
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #201f1d;
+    border: 2px solid #2e2b29;
     font-size: 14px;
     padding: 10px;
     border-radius: 4px;
@@ -378,7 +378,7 @@ form > div > input{
 
 .campo_formulario > textarea:focus{
     border: 2px solid #D34204;
-    color: #201f1d;
+    color: #2e2b29;
     outline: none;
 }
 
@@ -497,7 +497,7 @@ form > div > label{
   }
 
   @media only screen and (max-width: 1024px){
-    .logo_and_pesquisa{
+    #logo_and_pesquisa{
         width: 60%;
     }
   }
@@ -526,6 +526,14 @@ form > div > label{
         flex-direction: column;
         width: 80%;
     }
+    #infor_produto{
+        width: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #infor_produto{
+        padding-left: 10px;
+    }
   }
   @media only screen and (max-width: 470px){
     section{
@@ -543,9 +551,6 @@ form > div > label{
     }
     #input_quantidade{
         row-gap: 10px;
-    }
-    #infor_produto{
-        padding-left: 10px;
     }
   }
   @media only screen and (max-width: 375px){
