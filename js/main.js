@@ -6,7 +6,7 @@ function dropDownMenu(botao){
         botao.style = "margin-top: 0px;";
         flag = false;
     }else{
-        document.getElementsByTagName("nav")[0].style = "display: none;";
+        document.getElementsByTagName("nav")[0].style = "@media only screen and (max-width: 768px) { display: none; }";
         botao.style = "margin-top: 15px;";
         flag = true;
     }
