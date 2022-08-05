@@ -131,6 +131,10 @@ nav{
     background-color: #2e2b29;
 }
 
+#dropDown{
+    display: none;
+}
+
 .links_nav{
     list-style-type: none;
     margin: 0;
@@ -506,6 +510,20 @@ form > div > label{
     }
     nav{
         flex-direction: column;
+        display: none;
+    }
+    #dropDown{
+        display: block;
+        margin: auto;
+        background-color: #2e2b29;
+        color:white;
+        border: none;
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    #dropDown:hover{
+        background-color: #000000;
     }
     #links_nav_helpers{
         margin-top: 15px;
