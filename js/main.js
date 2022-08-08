@@ -10,6 +10,4 @@ function dropDownMenu(botao){
         botao.style = "margin-top: 15px;";
         flag = true;
     }
-    let width = window.innerWidth > 0 ? window.innerWidth : screen.width;
-    console.log(width)
 }
