@@ -10,7 +10,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 20px 0px 20px;
+    margin: 20px;
 }
 h3, p {
     margin: 0;
