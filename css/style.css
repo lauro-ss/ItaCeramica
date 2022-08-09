@@ -4,7 +4,7 @@ body {
 body.dark{
     background-color: #161616;
 }
-main.dark, .link_produtos, #mensagem_footer.dark, #atendimento.dark{
+main.dark, .link_produtos.dark, #mensagem_footer.dark, #atendimento.dark{
     color:white;
 }
 .redes_social_link.dark{
