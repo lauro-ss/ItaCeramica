@@ -65,6 +65,18 @@ li{
     width: 100%;
 }
 
+#conteudo_buscado{
+    position: absolute;
+    top: 64px;
+    z-index: 1030;
+}
+.lista_buscada{
+    width: 440px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0 !important;
+}
+
 #lupa_pesquisa{
     padding-right: 16px;
     padding-left: 12px;
