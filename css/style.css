@@ -70,10 +70,10 @@ li{
     top: 64px;
     z-index: 1030;
 }
-.lista_buscada{
+#lista_buscada{
     width: 440px;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     border-radius: 0 !important;
 }
 
