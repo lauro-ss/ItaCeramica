@@ -3,12 +3,12 @@ let flag = true;
 
 const constrate_flag = sessionStorage.getItem("contraste");
 if(constrate_flag === "1"){
-    document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-moon-fill"></i>';
+    document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-circle-fill"></i>';
     flag = false;
     constrate();
 }
 if(constrate_flag === "2"){
-    document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-brightness-high-fill"></i>';
+    document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-circle-half"></i>';
     flag = true;
 }
 
@@ -45,12 +45,12 @@ function constrate(){
 
 botaoContraste.addEventListener("click", () => {
     if(flag){
-        document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-moon-fill"></i>';
+        document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-circle-fill"></i>';
         sessionStorage.setItem("contraste","1");
         flag = false;
     }
     else{
-        document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-brightness-high-fill"></i>';
+        document.getElementById("botaoContraste").innerHTML = '<i class="bi bi-circle-half"></i>';
         sessionStorage.setItem("contraste","2");
         flag = true;
     }
