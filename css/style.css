@@ -4,7 +4,7 @@ body {
 body.dark{
     background-color: #161616;
 }
-main.dark, .link_produtos.dark, #mensagem_footer.dark, #atendimento.dark{
+main.dark, .link_produtos.dark, #mensagem_footer.dark, #atendimento.dark, #infor_produto.dark, #text_centrado.dark, #label_quantidade.dark, .contraste-c.dark{
     color:white;
 }
 .redes_social_link.dark{
@@ -353,7 +353,7 @@ section > div > a:hover, section > div > a:hover{
 #input_quantidade > button:hover{
     background-color: #D34204;
 }
-.text_centrado{
+#text_centrado{
     text-align: center;
     color: #5c5c5c;
 }
@@ -416,10 +416,11 @@ form > div > label{
     width: 300px;
 }
 
-/* The container */
-.container {
+/* The myContainer */
+.myContainer {
     display: block;
     position: relative;
+    box-sizing: content-box;
     padding-left: 25px;
     margin-bottom: 12px;
     cursor: pointer;
@@ -430,7 +431,7 @@ form > div > label{
     user-select: none;
   }
   
-.container input {
+.myContainer input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -440,18 +441,18 @@ form > div > label{
   
 .checkmark {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 0;
     height: 17px;
     width: 17px;
     background-color: #979797;
   }
   
-.container:hover input ~ .checkmark {
+.myContainer:hover input ~ .checkmark {
     background-color: #000000;
   }
   
-.container input:checked ~ .checkmark {
+.myContainer input:checked ~ .checkmark {
     background-color: #D34204;
   }
   
@@ -461,14 +462,14 @@ form > div > label{
     display: none;
   }
   
-.container input:checked ~ .checkmark:after {
+.myContainer input:checked ~ .checkmark:after {
     display: block;
   }
   
-.container .checkmark:after {
+.myContainer .checkmark:after {
     left: 5px;
-    top: 1px;
-    width: 5px;
+    top: 2px;
+    width: 7px;
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
